@@ -22,6 +22,9 @@ const resultResta = resta(10, 8);
 const rsultCatch = captarPosibleError()
 
 
+const elemento = document.getElementById("campoAModificar");
+elemento.innerHTML = resultSuma
+
 console.log("resultSuma", resultSuma);
 console.log("resultResta", resultResta);
 console.log("rsultCatch", rsultCatch);
